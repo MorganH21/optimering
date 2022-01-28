@@ -17,7 +17,9 @@ body { @media screen and (max-width: 900px) {
   ul.sidenav li a {
     text-align: center;
     float: none;
+    text-size: 20px;
   }
+  
 }
  }
 ul.sidenav {
