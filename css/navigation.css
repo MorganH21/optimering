@@ -1,4 +1,25 @@
-body {
+body { @media screen and (max-width: 900px) {
+  ul.sidenav {
+    width: 80%;
+    height: auto;
+    position: relative;
+  }
+  
+  ul.sidenav li a {
+    float: left;
+    padding: 15px;
+  }
+  
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  ul.sidenav li a {
+    text-align: center;
+    float: none;
+  }
+}
+ }
 ul.sidenav {
   list-style-type: none;
   margin: 10px;
@@ -33,27 +54,4 @@ div.content {
   margin-left: 25%;
   padding: 2px 18px;
   height: 1000px;
-}
-
-@media screen and (max-width: 900px) {
-  ul.sidenav {
-    width: 80%;
-    height: auto;
-    position: relative;
-  }
-  
-  ul.sidenav li a {
-    float: left;
-    padding: 15px;
-  }
-  
-  div.content {margin-left: 0;}
-}
-
-@media screen and (max-width: 400px) {
-  ul.sidenav li a {
-    text-align: center;
-    float: none;
-  }
-}
 }
