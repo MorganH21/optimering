@@ -18,7 +18,8 @@ body { @media screen and (max-width: 900px) {
     
   }
   font-size: 20px;
-}
+ }
+
  ul.sidenav {
   list-style-type: none;
   margin: 10px;
@@ -53,4 +54,5 @@ div.content {
   margin-left: 25%;
   padding: 2px 18px;
   height: 1000px;
+ }
 }
