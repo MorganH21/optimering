@@ -1,11 +1,11 @@
 @media screen and (max-width: 900px) {
-  ul.sidenav {
+  ul {
     width: 80%;
     height: auto;
     position: relative;
   }
   
-  ul.sidenav li a {
+   ul li a {
     float: left;
     padding: 50px;
   }
@@ -18,7 +18,7 @@
     padding: 50px 50px;
   }
  }
- ul.sidenav {
+ ul {
   list-style-type: none;
   margin: 10px;
   padding: 50px;
@@ -30,7 +30,7 @@
   border: 5px dashed #426236;
 }
 
-ul.sidenav li a {
+ul li a {
   display: block;
   color: #001;
   text-align: center;
@@ -38,7 +38,7 @@ ul.sidenav li a {
   text-decoration: none;
 }
  
-ul.sidenav li a.active {
+ul li a.active {
   background-color: #4CAF50;
   color: white;
 }
