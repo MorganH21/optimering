@@ -15,6 +15,7 @@
   ul.sidenav li a {
     text-align: center;
     float: none; 
+    padding: 50px 50px;
   }
  }
  ul.sidenav {
