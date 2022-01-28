@@ -7,7 +7,7 @@
   
   ul.sidenav li a {
     float: left;
-    padding: 15px;
+    padding: 50px;
   }
  } 
   div.content {margin-left: 0;}
@@ -20,7 +20,7 @@
  ul.sidenav {
   list-style-type: none;
   margin: 10px;
-  padding: 30px;
+  padding: 50px;
   width: 25%;
   background-color: #564;
   position: fixed;
@@ -33,7 +33,7 @@ ul.sidenav li a {
   display: block;
   color: #001;
   text-align: center;
-  padding: 10px 15px;
+  padding: 50px 50px;
   text-decoration: none;
 }
  
@@ -49,6 +49,6 @@ ul.sidenav li a:hover:not(.active) {
 
 div.content {
   margin-left: 25%;
-  padding: 2px 18px;
+  padding: 50px 50px;
   height: 1000px;
  }
